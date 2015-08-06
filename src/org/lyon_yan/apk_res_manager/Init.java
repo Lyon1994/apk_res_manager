@@ -17,7 +17,7 @@ public class Init extends AppInit {
 		 * 初始化配置
 		 */
 		R.image.icon_png=R.path.resource_path+"img/icon.png";
-		R.page.index=R.path.resource_path+"index.html";
+		R.page.index=R.path.resource_path+"install.html";
 		R.value.stageTitle="Wifimax\tOEM生成器";
 		launch(args);
 	}
