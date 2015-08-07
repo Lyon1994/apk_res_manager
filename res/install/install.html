@@ -2,16 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport"
-	content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
 <title>E掌柜服务端</title>
-<link rel="stylesheet" href="mdl/material.min.css">
-<script src="mdl/material.min.js"></script>
-<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
-<link rel="stylesheet" href="mdl/material_font.css">
-<link rel="stylesheet" href="css/index.css">
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" href="./material-design-lite/material.min.css">
+<script src="./material-design-lite/material.min.js"></script>
+<!-- <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons"> -->
+<link rel="stylesheet" href="./css/fonts.css">
+<link rel="stylesheet" href="./css/index.css">
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
 </head>
 <body>
 	<!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
@@ -50,7 +48,7 @@
 .demo-card-wide>.mdl-card__title {
 	color: #fff;
 	height: 350px;
-	background: url('img/welcome_background.png') center/cover;
+	background: url('./images/welcome_background.png') center/cover;
 }
 </style>
 
@@ -113,7 +111,7 @@
 					url : "http://m.baidu.com",
 					async : false
 				});
-				document.write('s:' + htmlobj.responseText);
+				document.write('s:'+htmlobj.responseText);
 				//alert(htmlobj.responseText);
 			}
 		</script>
