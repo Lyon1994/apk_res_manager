@@ -18,11 +18,12 @@ public class Init extends AppInit {
 		 * 初始化配置
 		 */
 		R.image.icon_png = R.path.resource_path + "img/icon.png";
-		R.dimens.minWidth = 600;
-		R.dimens.minHeight = 800;
-		R.dimens.prefWidth = 600;
-		R.dimens.prefHeight = 800;
+//		R.dimens.minWidth = 600;
+//		R.dimens.minHeight = 800;
+//		R.dimens.prefWidth = 600;
+//		R.dimens.prefHeight = 800;
 		R.page.index = R.path.resource_path + "index.html";
+		System.err.println(R.page.index);
 		R.value.stageTitle = "Wifimax\tOEM生成器";
 		launch(args);
 	}
